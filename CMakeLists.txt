@@ -26,12 +26,5 @@
 
     add_executable(${EXECUTABLE_NAME} ${LIBRARY1_SOURCES} )
 
-    set( LIBRARIES
-		${comanMath_LIBRARIES} #<---- this is our demo library found by find_package()
-    )
-
-    target_link_libraries(${EXECUTABLE_NAME} ${LIBRARIES} )
-
-
 
 
