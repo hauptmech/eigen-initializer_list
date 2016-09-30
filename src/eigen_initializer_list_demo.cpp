@@ -52,5 +52,28 @@ int main()
     // Init a 3 element vector
     Vector3d v3  {1,3,3};
     std::cout << "\nv3:\n" << v3 << std::endl;
+
+
+
+
+
+
+    // Init a fixed size 3x3 array
+    Array33d a3 {{1.2,2.2,3.3},{4.2,2.5,6.3},{7.2,8.2,9.3}};
+    std::cout << "\na3:\n" << a3 << std::endl;
+
+
+    // Initialize a variable length Array to 2x2
+    ArrayXXd aY {{1.2,2.2},{3.2,4.5}};
+    std::cout << "\naY:\n" << aY << std::endl;
+
+    // Initialize a variable length Array to 9x1
+    // 2D Arrays are initialized column-wise
+    ArrayXXd aX {1.2,2.2,3.3, 4.2,2.5,6.3, 7.2,8.2,9.3};
+    std::cout << "\naX:\n" << aX << std::endl;
+
+    // Init a 3 element array
+    Array3d w3  {1,3,3};
+    std::cout << "\nw3:\n" << w3 << std::endl;
 }
 

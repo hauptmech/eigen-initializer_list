@@ -30,7 +30,7 @@ int main()
 
 The key line to add to your CMakeLists.txt file is:
 
-	add_definitions(-std=c++11 -DEIGEN_MATRIX_PLUGIN="Matrix_initializer_list.h")
+	add_definitions(-std=c++11 -DEIGEN_MATRIX_PLUGIN="Matrix_initializer_list.h" -DEIGEN_ARRAY_PLUGIN="Array_initializer_list.h")
 
 
 LICENSE
