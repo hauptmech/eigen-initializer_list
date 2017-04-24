@@ -22,7 +22,7 @@
         src/eigen_initializer_list_demo.cpp      #<---- Change me!
     )
 
-    add_definitions(-std=c++11 -DEIGEN_MATRIX_PLUGIN="Matrix_initializer_list.h")
+    add_definitions(-std=c++11 -DEIGEN_MATRIX_PLUGIN="Matrix_initializer_list.h" -DEIGEN_ARRAY_PLUGIN="Array_initializer_list.h")
 
     add_executable(${EXECUTABLE_NAME} ${LIBRARY1_SOURCES} )
 
